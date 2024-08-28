@@ -28,6 +28,8 @@ In this section, you’ll use Python and SQLAlchemy to do a basic climate analys
 
 6. Plot the results by using the DataFrame `plot` method, as the following image shows:
 
+![](https://github.com/ocarolinne/sqlalchemy-challenge/blob/main/Images/Screenshot%202024-08-28%20at%2012.46.01%E2%80%AFAM.png)
+
 7. Use Pandas to print the summary statistics for the precipitation data.
 
 ### Station Analysis
@@ -44,6 +46,7 @@ In this section, you’ll use Python and SQLAlchemy to do a basic climate analys
     - Query the previous 12 months of TOBS data for that station.
     - lot the results as a histogram with `bins=12`, as the following image shows:
 
+![](https://github.com/ocarolinne/sqlalchemy-challenge/blob/main/Images/Screenshot%202024-08-28%20at%2012.46.10%E2%80%AFAM.png)
 
 ## Part 2: Design Your Climate App
 Now that you’ve completed your initial analysis, you’ll design a Flask API based on the queries that you just developed. To do so, use Flask to create your routes as follows:
@@ -67,3 +70,6 @@ Now that you’ve completed your initial analysis, you’ll design a Flask API b
     - Return a JSON list of the minimum temperature, the average temperature, and the maximum temperature for a specified start or start-end range.
     - For a specified start, calculate `TMIN`, `TAVG`, and `TMAX` for all the dates greater than or equal to the start date.
     - For a specified start date and end date, calculate `TMIN`, `TAVG`, and `TMAX` for the dates from the start date to the end date, inclusive.
+
+  ![](https://github.com/ocarolinne/sqlalchemy-challenge/blob/main/Images/Screenshot%202024-08-28%20at%2012.43.46%E2%80%AFAM.png)
+
